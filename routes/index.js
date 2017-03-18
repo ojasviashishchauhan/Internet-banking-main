@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var User = mongo.collection('users');
+var User = require('../model/users');
 //get
 router.get('/',function(req, res, next){
   return res.render('final',{title:'HOME'});
@@ -10,12 +10,12 @@ router.get('/final.html',function(req, res, next){
 });
 
 //get registration
-router.get('/signup',function(req, res, next){
+router.get('/signup.html',function(req, res, next){
     return res.render('signup',{title:'signup.html'});
 });
 
 //post registration
-router.post('/signup', function(req, res, next){
+router.post('/signup.html', function(req, res, next){
   if(req.body.email &&
     req.body.userid &&
      req.body.password){
