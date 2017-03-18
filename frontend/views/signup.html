@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <title>Sign Up </title>
+    <head>
+        <link rel="stylesheet" href="sign.css" type="text/css">
+    </head>
+    <script type="text/javascript" src="signjs.js" >
+    </script>
+    <body class="pic">
+        <header>
+
+            </header>
+
+
+        <form class="box1" method="post" action="/signup">
+
+            <fieldset>
+            <h3>Secure Sign Up</h3>
+
+                <div>
+                    <h4>Create Login</h4>
+                    <input class="bar" type="text" name="userid" placeholder="userid" required><br>
+                    <input class="bar" type="password" name="password" placeholder="Password"  id="pass1" required /><br>
+                    <input class="bar" type="password" name="confirmPassword" placeholder="Retype Password" id="pass2" onblur="confirmpassword()" required  onkeyup="checkPass(); return false;"><br>
+
+
+                    <h4>Personal Information</h4>
+                    <input class="bar" type="text" name="fname" placeholder="First Name" required><br>
+                    <input class="bar" type="text" name="lname" placeholder="Last Name" required><br>
+                    <div class="gender">Gender:<br>
+                    <input type="radio" value="male" name="gender" checked>Male<br>
+                    <input type="radio" value="female" name="gender">Female<br>
+                    <input type="radio" value="Others" name="gender">Others<br>
+                    </div>
+                    <input class="bar" id="date" name="dob" type="date" data-placeholder="Date Of Birth"  required /><br>
+                    <input class="bar" name="daddy" type="text" placeholder="Father's Name" required><br>
+                    <h4>Contact Information</h4>
+                    <input class="bar" type="text" placeholder="Street Address"><br>
+                    <select class="gender" id="state">
+                        <option value="" selected="selected">Select a state</option>
+                        <option value="haryana">Haryana</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Himachal">Himachal</option>
+                        <option value="Uttar pradesh">Uttar Pradesh</option>
+                    </select>
+                    <input  class="bar" type="number" placeholder="Zip Code"><br>
+                    <input class="bar" type="email" name="email" placeholder="Email" required><br>
+
+                      <button type="submit"><b>Complete Sign Up</b> </button>
+
+
+                </div>
+            </fieldset>
+        </form>
+
+    </body>
+</html>

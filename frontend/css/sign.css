@@ -1,0 +1,125 @@
+header
+{
+    background: url("axis.png") no-repeat;
+    height:100px;
+    background-size: 150px;
+    width: 110%;
+    position: relative;
+    left: -10px;
+    bottom: 10px;
+    
+    
+
+
+   
+   background-color: white;
+    
+}
+
+h3
+{
+ text-align: center;
+ color: maroon;
+    font-family: verdana;
+    font-size: 18px;
+    text-shadow: 0px 10px 6px black;
+   
+    
+}
+p
+{
+    font-family: sans-serif;
+    font-size: 13px;
+    background-color: lightgrey;
+    
+}
+h4
+{
+    color: darkgrey;
+    font-size: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+.bar
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1ps solid #ccc;
+    box-sizing: border-box;
+}
+#date
+{
+    color: darkgrey;
+    font-family: sans-serif;
+    
+    
+}
+input[type="date"]::before{
+    content: attr(data-placeholder);
+    width: 100%;
+}
+input[type="date"]:focus::before,
+input[type="date"]:valid::before{display: none}
+
+.gender
+{
+    color: darkgrey;
+    font-size: 13px;
+    font-family: sans-serif;
+    
+}
+#state
+
+{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1ps solid #ccc;
+    box-sizing: border-box;
+}
+span{
+    float: right;
+}
+button
+{
+    background-color:palegreen;
+  
+    color: black;
+    font-family: sans-serif;
+    font-size: 11px;
+    box-sizing: border-box;
+    display: inline;
+    width: 40%;
+    cursor: pointer;
+    margin: 0;
+    padding: 16px;
+    
+    
+}
+
+div.box
+{
+    border: 2px solid grey;
+    
+}
+.box1
+{
+    width: 305px;
+    position: relative;
+    left: 35%;
+   
+    padding: 50px;
+    margin: 30px;
+    border: 1px solid #E0E0E0;
+    background-color: whitesmoke;
+        
+}
+.pic
+{
+    background: url(back.jpg) no-repeat;
+    background-size: 2500px;
+        
+   
+}

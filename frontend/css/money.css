@@ -1,0 +1,306 @@
+.head
+{
+    background-color: white;
+}
+
+header
+{
+    background-color: white;
+}
+.body img
+{
+    margin-top: 20%;
+}
+
+#bg{
+    position: absolute;
+    top:5%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -4000;
+}
+.log
+{
+    float: left;
+    width: 250px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#menu{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   overflow: hidden;
+    margin-top: 5px;
+    clear: both;
+    
+}
+#menu li
+{
+    font-family: 'Oswald';
+    font-size: 13px;
+    
+    display: inline;
+    display: block;
+    padding: 8px 16px;
+    float: right;
+    height: 7px;
+    border-right: 1px solid grey;
+   
+    
+    
+}
+
+#nav ul{
+   
+   
+    list-style-type: none;
+    margin: 0 ;
+    padding: 1px;
+    
+    overflow: hidden;
+    background-color: coral;
+    height: 40px;
+     margin: 1em 1em;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+   
+    
+    
+    
+    
+    
+}
+
+#nav li
+{
+   
+    float: left;
+    border-right: 1px solid white;
+    
+   text-align: center;
+    
+}
+#nav li a, .dropbtn
+{ 
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    padding: 14px 39px;
+    text-decoration: none;
+    
+}
+#nav li a:hover, .dropdown:hover .dropbtn
+{
+    background-color: orange;
+    text-align: center;
+}
+li.dropdown
+{
+    display: inline-block;
+
+}
+
+.drop
+{
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0;
+    margin-top:-0.1cm;
+    
+}
+.drop a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+.drop:hover
+{
+    background-color: orange;
+    
+}
+.dropdown:hover .drop
+{
+    display: block;
+}
+
+.but
+{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+}
+.head
+{
+    margin-top: 80px;
+   margin-left:35px; 
+       background-color: coral;
+    color: black;
+    width: 360px;
+    
+    font-family: Verdana;
+    font-size: 25px;
+    border-radius: 18px;
+background-image: url(o.gif);
+    
+}
+span
+{
+    float: right;
+    
+}
+
+
+    
+}
+#box3
+{
+    
+    width: 1000px;
+    padding: 70px;
+    margin: 70px;
+    border-radius: 30px;
+    
+   
+    
+}
+.instruct
+{
+    clear: both;
+    padding:10px 0px ;
+    margin:0;
+    background-color: white;
+    position: relative;
+    top: 300px;
+    
+}
+.icon
+{
+    list-style-type: none;
+    padding-left: 1.5em;
+    background-image: url(arrow.png);
+    background-size: 1em;
+    background-repeat: no-repeat;
+    
+    
+}
+.icon2
+{
+    list-style-type: none;
+    padding-left: 1.5em;
+    background-image: url(arrow1.png);
+    background-size: 1em;
+    background-repeat: no-repeat;
+}
+h3{
+      font-family: sans-serif;
+    font-size: 20px;
+     
+    
+}
+/********************************
+money transfer box
+********************/
+ h4{
+    font-family: verdana;
+    font-size: 14px;
+    
+    
+    
+}
+.bar
+{
+    width: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 12px 14px;
+    margin:8px 5px;
+  
+  
+}
+.formbox
+{
+  
+        
+    border-radius: 18px;
+    background-color: whitesmoke;
+    width: 700px;
+    border: 6px outset black;
+    padding: 30px;
+    margin: 25px;
+   
+    font-size: 16px;
+    font-style: normal;
+    font-family: Verdana;
+    box-shadow: 0px 8px 0px #E0E0E0; 
+    background-image: url(emb.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    left: 350px;
+    
+    top: 100px;
+}
+.button
+{
+    background-color: coral;
+    width: 150px;
+    padding: 12px 16px;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/*****************************
+footer
+*****************/
+
+.footbox{
+    font-size: 12px;
+    font-family: cursive;
+    border: 1px solid #E0E0E0;
+    
+    
+}
+
+
+footer
+{
+    margin:0;
+    padding:0;
+    font-size: 12px;
+    background-color: #F3F3F3;
+      font-size: 12px;
+    font-family: cursive;
+    border: 1px solid #E0E0E0;
+    margin-top: 400px;
+    
+}
+footer div{
+    display:inline-block;
+}

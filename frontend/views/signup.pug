@@ -1,0 +1,28 @@
+doctype html
+html
+  title Sign Up
+  head
+    link(rel='stylesheet', href='sign.css', type='text/css')
+  script(type='text/javascript', src='signjs.js')
+  body.pic
+    header
+    form.box1(method='post', action='', enctype='text/plain')
+      fieldset
+        h3 Secure Sign Up
+        div
+          h4 Create Login
+          |
+          input.bar(type='text', name='userid', placeholder='userid')
+          br
+          |
+          input#pass1.bar(type='password', name='password', placeholder='Password')
+          br
+          |
+          input#pass2.bar(type='password', name='confirmPassword', placeholder='Retype Password')
+          br
+          
+          input.bar(type='email', name='email', placeholder='Email')
+          br
+          |
+          button(type='submit')
+            b Complete Sign Up
