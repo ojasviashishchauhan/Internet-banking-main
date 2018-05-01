@@ -14,7 +14,7 @@ router.get('/signup.html',function(req, res, next){
     return res.render('signup',{title:'signup.html'});
 });
 
-//post registration
+//post registration ofsignup
 router.post('/signup.html', function(req, res, next){
   if(req.body.email &&
     req.body.userid &&
