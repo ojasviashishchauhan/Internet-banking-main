@@ -16,7 +16,7 @@ var db = mongoose.connection;
 //mongo error
 //db.on('error', console.error.bind(console, ' connection error to database'));
 
-//include routes
+//include routes which are kept diffrnt
 var routes = require('./routes/index');
 app.use('/', routes);
 
