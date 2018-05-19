@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 //server static files
 app.use(express.static(__dirname + '/frontend/css'));
 
-//mongodb server connections
+//mongodb server connections this is a old project now
 mongoose.connect("mongodb://localhost:27017/userData");
 var db = mongoose.connection;
 
